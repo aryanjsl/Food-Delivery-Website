@@ -23,11 +23,6 @@ This repository hosts the source code for Big Bites, a dynamic food ordering web
 - Beautiful Alerts
 
 
-## Screenshots
-
-![App Screenshot](./food-delivery/frontend/1.png)
-
-
 ## Run Locally
 
 
