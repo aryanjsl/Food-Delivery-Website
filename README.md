@@ -20,7 +20,6 @@ This repository hosts the source code for Big Bites, a dynamic food ordering web
 - Login/Signup
 - Authenticated APIs
 - REST APIs
-- Beautiful Alerts
 
 
 ## Screenshots
