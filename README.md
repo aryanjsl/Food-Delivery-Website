@@ -21,6 +21,9 @@ This repository hosts the source code for Big Bites, a dynamic food ordering web
 - Authenticated APIs
 - REST APIs
 
+## Demo
+- User Panel - https://food-delivery-frontend-ylc2.onrender.com
+- Admin Panel - https://food-delivery-admin-pu82.onrender.com
 
 ## Screenshots
 - Main Page
