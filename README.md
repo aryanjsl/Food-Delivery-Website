@@ -20,18 +20,18 @@ This repository hosts the source code for Big Bites, a dynamic food ordering web
 - Login/Signup
 - Authenticated APIs
 - REST APIs
-- Beautiful Alerts
 
 
 ## Screenshots
-![App Screenshot](https://github.com/aryanjsl/Food-Delivery-Website/blob/7717b733bf7de94a3dd25b802d04cae9be41b5c4/1.png)
 - Main Page
-![App Screenshot](https://github.com/aryanjsl/Food-Delivery-Website/blob/7717b733bf7de94a3dd25b802d04cae9be41b5c4/2.png)
+![App Screenshot](https://github.com/aryanjsl/Food-Delivery-Website/blob/7717b733bf7de94a3dd25b802d04cae9be41b5c4/1.png)
 - Login Section
-![App Screenshot](https://github.com/aryanjsl/Food-Delivery-Website/blob/7717b733bf7de94a3dd25b802d04cae9be41b5c4/3.5.png)
+![App Screenshot](https://github.com/aryanjsl/Food-Delivery-Website/blob/7717b733bf7de94a3dd25b802d04cae9be41b5c4/2.png)
 - Product Section
-![App Screenshot](https://github.com/aryanjsl/Food-Delivery-Website/blob/7717b733bf7de94a3dd25b802d04cae9be41b5c4/3.png)
+![App Screenshot](https://github.com/aryanjsl/Food-Delivery-Website/blob/7717b733bf7de94a3dd25b802d04cae9be41b5c4/3.5.png)
 - Cart Page
+![App Screenshot](https://github.com/aryanjsl/Food-Delivery-Website/blob/7717b733bf7de94a3dd25b802d04cae9be41b5c4/3.png)
+
 
 ## Run Locally
 
