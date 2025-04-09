@@ -1,4 +1,3 @@
-
 # Big Bites - Food delivery Website
 
 This repository hosts the source code for Big Bites, a dynamic food ordering website built with the MERN Stack and integrated with Stripe for secure payments. It offers a user-friendly platform for seamless online food ordering.
@@ -22,6 +21,8 @@ This repository hosts the source code for Big Bites, a dynamic food ordering web
 - REST APIs
 
 ## Demo
+(Please make sure to start the backend server by clicking the backend URL before accessing the User Panel. This ensures everything works smoothly without any errors)
+- Backend Url - https://food-delivery-backend-vi2s.onrender.com 
 - User Panel - https://food-delivery-frontend-ylc2.onrender.com
 - Admin Panel - https://food-delivery-admin-pu82.onrender.com
 
