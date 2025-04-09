@@ -7,6 +7,10 @@ const FoodItem = ({ id, name, price, description, image}) => {
 
   const {cartItems,addToCart,removeFromCart,url } = useContext(StoreContext);
 
+console.log("FoodItem props:", { id, name, price, description, image });
+console.log("StoreContext values:", { cartItems, url });
+
+
   return (
     <div className='food-item'>
       <div className="food-item-img-container">
