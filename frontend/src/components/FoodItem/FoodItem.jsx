@@ -17,11 +17,11 @@ console.log("StoreContext values:", { cartItems, url });
         <img src={image ? url + "/images/" + image : "/images/placeholder.png"} 
           alt={name || "Food Item"}
           className="food-item-image"/>
-        {!cartItems[id] ? (
+        {!cartItems?.[id] ? (
         <img className='add' onClick={() => addToCart(id)} src={assets.add_icon_white} alt=""/> ):(
          <div className='food-item-counter'>
          <img onClick={()=>removeFromCart(id)} src={assets.remove_icon_red} alt="" />
-            <p>{cartItems[id]}</p>
+            <p>{cartItems?.[id]}</p>
             <img onClick={()=>addToCart(id)} src={assets.add_icon_green} alt="" />
           </div>
         )}
