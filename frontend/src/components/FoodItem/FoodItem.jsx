@@ -5,7 +5,14 @@ import { StoreContext } from '../../context/StoreContext';
 
 const FoodItem = ({ id, name, price, description, image}) => {
 
-  const {cartItems,addToCart,removeFromCart,url } = useContext(StoreContext);
+  const context = useContext(StoreContext);
+
+  if (!context) {
+    console.error("StoreContext is undefined");
+    return null; // or a loading state
+  }
+  
+  const { cartItems, addToCart, removeFromCart, url } = context;
 
 console.log("FoodItem props:", { id, name, price, description, image });
 console.log("StoreContext values:", { cartItems, url });
@@ -17,7 +24,7 @@ console.log("StoreContext values:", { cartItems, url });
         <img src={image ? url + "/images/" + image : "/images/placeholder.png"} 
           alt={name || "Food Item"}
           className="food-item-image"/>
-        {!cartItems?.[id] ? (
+        {typeof cartItems?.[id] === 'undefined' ? (
         <img className='add' onClick={() => addToCart(id)} src={assets.add_icon_white} alt=""/> ):(
          <div className='food-item-counter'>
          <img onClick={()=>removeFromCart(id)} src={assets.remove_icon_red} alt="" />
